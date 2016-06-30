@@ -1,8 +1,9 @@
 var express = require('express');
-var slylan = express.Router();
+var zll = express.Router();
 
 /* GET home page. */
-slylan.get('/second', function(req, res, next) {
+zll.get('/second', function(req, res, next) {
+	var zll=""张兰兰;
   res.render('index', { title: 'Express' });
 });
 
