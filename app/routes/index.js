@@ -1,9 +1,9 @@
 var express = require('express');
-var sly = express.Router();
+var slylan = express.Router();
 
 /* GET home page. */
-sly.get('/second', function(req, res, next) {
+slylan.get('/second', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-module.exports = sly;
+module.exports = slylan;
